@@ -1,0 +1,71 @@
+  Warhamer_Hero_Creator.Clock1.resources - Embedded, ContainedInManifestFile, 
+  Warhamer_Hero_Creator.CreateHero.resources - Embedded, ContainedInManifestFile, 
+  Warhamer_Hero_Creator.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Warhamer_Hero_Creator.Rool.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Warhamer_Hero_Creator, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RPG_HERO_CREATOR.Clock: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class RPG_HERO_CREATOR.CreateHero: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Random random_number : Public
+    System.Random random_comparenumber : Public
+    System.Collections.Generic.List`1[System.String] men_names : Public
+    System.Collections.Generic.List`1[System.String] women_names : Public
+    System.Collections.Generic.List`1[System.String] hero_races : Public
+    System.Collections.Generic.List`1[System.String] hero_profession : Public
+    System.Collections.Generic.List`1[System.String] hero_star_sign : Public
+    System.Collections.Generic.List`1[System.String] hero_placeofbirth : Public
+    System.String hero_strings : Public
+    Boolean sex : Public
+    Int32 WW : Public
+    Int32 US : Public
+    Int32 K : Public
+    Int32 ODP : Public
+    Int32 ZR : Public
+    Int32 INT : Public
+    Int32 SW : Public
+    Int32 OGD : Public
+    Int32 A : Public
+    Int32 ZYW : Public
+    Int32 S : Public
+    Int32 WT : Public
+    Int32 SZ : Public
+    Int32 MAG : Public
+    Int32 PO : Public
+    Int32 PP : Public
+    Int32 race_index : Public
+    Int32 random_age : Public
+    System.String age_str : Public
+    Int32 random_height : Public
+    System.String height_str : Public
+    Int32 random_weight : Public
+    System.String weight_str : Public
+    Int32 siblings : Public
+    System.String siblings_str : Public
+    Int32 features : Public
+    Int32 comparenumber : Public
+  Methods:
+    choseFileToolStripMenuItem_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class RPG_HERO_CREATOR.Rool: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class RPG_HERO_CREATOR.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
